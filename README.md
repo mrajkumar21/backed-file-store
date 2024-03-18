@@ -37,7 +37,7 @@
    To run server ./store-project
    
    To run cli ./store
-   
+ ```  
 2. Install on kubernetes.
 ```
 	kubectl apply -f manifest/deployment.yaml
@@ -52,7 +52,7 @@
    eg: store add file.txt
    
 ```
-#To list the files from the fileserver.:
+# To list the files from the fileserver.:
 ```
    store ls
 ````
@@ -71,7 +71,7 @@
    store freq-words
 ```
 
-##Testing on Kubernetes
+## Testing on Kubernetes
 
 # To create files on the server:
 ```
@@ -81,7 +81,7 @@
      Files uploaded successfully
    
 ```
-#To list the files from the fileserver.:
+# To list the files from the fileserver.:
 ```
    curl -X GET  http://"svc-ip":8080/list
    
